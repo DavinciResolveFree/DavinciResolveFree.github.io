@@ -1,1 +1,0 @@
-# davinciresolvefree.github.io
