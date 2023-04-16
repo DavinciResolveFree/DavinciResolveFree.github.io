@@ -1,0 +1,189 @@
+.container {
+  display: flex;
+ 
+  
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width:320px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #808080;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  font-size: 16px;
+  color: #333;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1877f2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #628dc5;
+}
+
+.login-form .divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.login-form .divider:before,
+.login-form .divider:after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.login-form .divider:before {
+  margin-right: 10px;
+}
+
+.login-form .divider:after {
+  margin-left: 10px;
+}
+
+.login-form .signup-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c8bff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Facebook Login Form CSS */
+form {
+  display: flex;
+ 
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #1d2129;
+}
+
+input[type="text"], input[type="password"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #dddfe2;
+  border-radius: 3px;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #f0f2f5;
+  color: #1d2129;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  outline: none;
+  border-color: #1877f2;
+}
+
+button {
+  background-color: #1877f2;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #166fe5;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #1d2129;
+  text-align: center;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: none;
+}
+
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0em;
+  height: auto;
+  width: auto;
+  font-size: auto;
+}
+
+.header i {
+  color: #1877f2;
+}
+
+.facebook-name {
+  color: #1877f2;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-left: 0.5em;
+}
+
+
+
+
